@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Resto</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+        <!--link fonte-awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+        <!--link do arquivo do css-->
+        <link rel="stylesheet" href="css/estilo.css">
+
+    </head>
+
+    <body>
+        <!-- seção cabeçalho -->
+
+        <header>
+            <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+            <nav class="navbar">
+                <a class="active" href="#home">Inicio</a>
+                <a href="#dishes">Pratos</a>
+                <a href="#about">Sobre</a>
+                <a href="menu">Menu</a>
+                <a href="#review">Reviews</a>
+                <a href="#order">Pedidos</a>
+            </nav>
+
+            <div class="icons">
+                <i class="fas fa-bars" id="menu-bars"></i>
+                <i class="fas fa-search" id="search-icon"></i>
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-shopping-cart"></a>
+            </div>
+        </header>
+
+        <form action="" id="search-form">
+            <input type="search" placeholder="pesquise aqui..." name="" id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+            <i class="fas fa-times" id="close"></i>
+        </form>
+
+        <!--seção home-->
+
+        <section class="home" id="home">
+            <div class="swiper-container home-slider">
+                <div class="swiper-wrapper wrapper">
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Nossos Pratos Especiais</span>
+                            <h3>Noodles Apimentado</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                            <a href="#" class="btn">Faça seu Pedido</a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/home-img-1.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Nossos Pratos Especiais</span>
+                            <h3>Frango Frito</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                            <a href="#" class="btn">Peça Agora</a>
+                        </div>
+                        <div class="image">
+                            <img src="assets/home-img-2.png" alt="">
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <div class="content">
+                            <span>Nossos Pratos Especiais</span>
+                            <h3>Pizza</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit natus dolor cumque?</p>
+                            <a href="#" class="btn">Peça Agora</a>
+                        </div>
+
+                        <div class="image">
+                            <img src="assets/home-img-3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!--seção Inicio termina aqui-->
+
+        <!--Seção de pratos Começa-->
+
+        <section class="dishes" id="dishes">
+            <h3 class="sub-heading">Nossos Pratos</h3>
+            <h1 class="heading">Pratos Populares</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                    <img src="images/dish-1.png" alt="">
+                    <h3>Comidas Gostosas</h3>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-start"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$ 15,99</span>
+                <a href="#" class="btn">adicionar ao carrinho</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/dish-2.png" alt="">
+                <h3>Comidas Gostosas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$15,99</span>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+
+
+            
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/dish-3.png" alt="">
+                <h3>Comidas Gostosas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$15,99</span>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+            
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/dish-4.png" alt="">
+                <h3>Comidas Gostosas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$15,99</span>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+
+            
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/dish-5.png" alt="">
+                <h3>Comidas Gostosas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$15,99</span>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+
+
+            
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="assets/dish-6.png" alt="">
+                <h3>Comidas Gostosas</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>R$15,99</span>
+                <a href="#" class="btn">Adicionar ao Carrinho</a>
+            </div>
+        </section>
+
+        <!--Seção de Pratos termina aqui-->
+
+        <!-- A Seção sobre começa aqui-->
+
+        <section class="about" id="about">
+            <h3 class="sub-heading">Sobre Nós</h3>
+            <h1 class="heading">Por que Escolher a gente?</h1>
+
+            <div class="row">
+                <div class="image">
+                    <img src="assets/about-img.png" alt="">
+                </div>
+
+                <div class="content">
+                    <h3> Melhor Comida no País</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, sequi corrupti corporis quaerat voluptatem ipsam neque labore modi autem, saepe numquam quod reprehenderit rem? Tempora aut soluta odio corporis nihil!</p>
+                  <div class="icons-container">
+                      <div class="icons">
+                          <i class="fas fa-shipping-fast"></i>
+                          <span>Entrega Grátis</span>
+                      </div>
+
+                      <div class="icons">
+                          <i class="fas fa-dollar-sign"></i>
+                          <span>Pagamento Fácil</span>
+                      </div>
+
+                      <div class="icons">
+                          <i class="fas fa-dollar-sign"></i>
+                          <span>Serviços 24/7 horas</span>
+                      </div>
+                  </div>
+                  <a href="#" class="btn">Aprenda Mais</a>
+                </div>
+            </div>
+        </section>
+        <!--A Seção sobre termina aqui-->
+        <!--A Seção Menu começa Aqui-->
+
+        <section class="menu" id="menu">
+            <h3 class="sub-heading"> Nosso Menu</h3>
+            <h1 class="heading">Especialidade do Dia</h1>
+
+            <div class="box-container">
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-1.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-2.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-3.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-4.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-5.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-6.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-7.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-8.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+
+                <div class="box">
+                    <div class="image">
+                        <img src="assets/menu-9.jpg" alt="">
+                        <a herf="#" class="fas fa-heart"></a>
+                    </div>
+
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <h3>Comidas Deliciosas</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi, accusantium.</p>
+                        <a href="#" class="btn">Adiciona Carrinho</a>
+                        <span class="preço">R$ 12,99</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--A Seção Menu Termina Aqui-->
+
+        <!--A Seção de Review Começa Aqui-->
+        <!--A Seção de Review Termina Aqui-->
+
+        <section class="review" id="review">
+            <h3 class="sub-heading">Reviews de Clientes</h3>
+            <h1 class="heading">O que Eles Dissem?</h1>
+
+            <div class="swiper-container review-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-wrapper">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="assets/pic-1.png" alt="">
+                            <div class="user-info">
+                                <h3>John Deo</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                    </div>
+
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="assets/pic-2.png" alt="">
+                            <div class="user-info">
+                                <h3>john deo</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                    </div>
+
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/pic-3.png" alt="">
+                            <div class="user-info">
+                                <h3>john deo</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/pic-4.png" alt="">
+                            <div class="user-info">
+                                <h3>john deo</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <i class="fas fa-quote-right"></i>
+                        <div class="user">
+                            <img src="images/pic-5.png" alt="">
+                            <div class="user-info">
+                                <h3>john deo</h3>
+                                <div class="stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugiat consequuntur repellendus aperiam deserunt nihil, corporis fugit voluptatibus voluptate totam neque illo placeat eius quis laborum aspernatur quibusdam. Ipsum, magni.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--A seção review termina aqui-->
+        <!--A seção de ordem começa aqui-->
+            <section class="order" id="order">
+                <h3 class="sub-heading">Peça Agora</h3>
+                <h1 class="heading"> Rápido e de Graça</h1>
+
+                <form action="">
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Seu Nome</span>
+                            <input type="text" placeholder="Seu Nome aqui">
+                        </div>
+
+                        <div class="input">
+                            <span>Seu Número</span>
+                            <input type="number" placeholder="Seu Número aqui">
+                        </div>
+
+                        <div class="input">
+                            <span>Adicionar Comida</span>
+                            <input type="test" placeholder="extra com comida">
+                        </div>
+                    </div>
+
+                    <div class="inputBox">
+                        <div class="input">
+                            <span>Quanto?</span>
+                            <input type="number" placeholder="Quantos pedidos?">
+                        </div>
+                        <div class="input">
+                            <span>Data e Hora</span>
+                            <input type="datetime-local">
+                        </div>
+                    </div>
+                    
+                </form>
+            </section>
+
+        <!--A seção de orem termina por aqui-->
+    </body>
+</html>
